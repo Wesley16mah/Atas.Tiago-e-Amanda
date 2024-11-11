@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(139, 202, 253);
+}
+header {
+    background: rgb(180, 236, 126);
+    padding: 1px 0;
+}
+.caixa {
+    position: relative;
+    width: 1500px;
+    margin: 0 auto;
+}
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: hsl(250, 96%, 51%);
+    text-decoration: underline;
+}
+.Amigo {
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Amigo li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
